@@ -13,34 +13,42 @@
             "end_date": "2030-12-31",
             "duration_seconds": 6,
             "priority": 1,
-            "background_color": "#667eea",
-            "text_color": "#FFFFFF"
+            "background_color": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+            "text_color": "#FFFFFF",
+            "title_font_size": "2.5rem",
+            "description_font_size": "1.1rem"
         },
         {
             "id": 2,
             "type": "text",
-            "title": "Complete Lab Management Suite",
-            "description": "From patient registration to final report delivery - manage everything seamlessly with automated billing, inventory tracking, and real-time analytics.",
-            "vendor": "LabWiz",
+            "title": "XYZ Lab Analyzer Pro",
+            "description": "50% faster results with AI-powered diagnostics. Get special pricing for LabWiz customers!",
+            "vendor": "BioTech Instruments",
             "start_date": "2024-01-01",
             "end_date": "2030-12-31",
-            "duration_seconds": 6,
+            "duration_seconds": 8,
             "priority": 2,
-            "background_color": "#764ba2",
-            "text_color": "#FFFFFF"
+            "background_color": "#1e3a5f",
+            "text_color": "#FFFFFF",
+            "title_font_size": "2.25rem",
+            "description_font_size": "1rem",
+            "link_text": "Learn More",
+            "link_url": "https://example.com/lab-analyzer",
+            "link_color": "#43e97b"
         },
         {
             "id": 3,
-            "type": "text",
-            "title": "Smart Diagnostics, Smarter Decisions",
-            "description": "Leverage AI-powered insights and automated quality control to deliver accurate results faster. Join 500+ labs already using LabWiz.",
-            "vendor": "LabWiz",
+            "type": "image",
+            "image_file": "lab-equipment-promo.jpg",
+            "alt_text": "Advanced Lab Equipment - Special Offer",
+            "vendor": "MedEquip India",
             "start_date": "2024-01-01",
             "end_date": "2030-12-31",
-            "duration_seconds": 6,
+            "duration_seconds": 7,
             "priority": 3,
-            "background_color": "#f093fb",
-            "text_color": "#FFFFFF"
+            "image_position": "center",
+            "image_size": "large",
+            "link_url": "https://example.com/equipment-sale"
         },
         {
             "id": 4,
@@ -52,8 +60,13 @@
             "end_date": "2030-12-31",
             "duration_seconds": 6,
             "priority": 4,
-            "background_color": "#43e97b",
-            "text_color": "#FFFFFF"
+            "background_color": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+            "text_color": "#FFFFFF",
+            "title_font_size": "2rem",
+            "description_font_size": "1rem",
+            "link_text": "Contact Sales",
+            "link_url": "mailto:sales@labwiz.com",
+            "link_color": "#FFFFFF"
         }
     ],
     "floating_cards": []
