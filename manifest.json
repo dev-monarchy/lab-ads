@@ -1,0 +1,31 @@
+{
+  "version": "2026-01-20",
+  "last_updated": "2026-01-20T10:30:00+05:30",
+  "ads": [
+    {
+      "id": 1,
+      "type": "text",
+      "title": "Welcome to LabWiz",
+      "description": "Your complete laboratory management solution. Contact us for support.",
+      "vendor": "LabWiz",
+      "start_date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "duration_seconds": 5,
+      "priority": 1,
+      "background_color": "#4F46E5",
+      "text_color": "#FFFFFF"
+    },
+    {
+      "id": 2,
+      "type": "image",
+      "image_file": "medsupply-jan2026.png",
+      "alt_text": "MedSupply January Sale",
+      "click_url": "https://medsupply.example.com",
+      "vendor": "MedSupply Co",
+      "start_date": "2026-01-01",
+      "end_date": "2026-01-31",
+      "duration_seconds": 7,
+      "priority": 2
+    }
+  ]
+}
