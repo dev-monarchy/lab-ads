@@ -1,31 +1,60 @@
 {
-  "version": "2026-01-20",
-  "last_updated": "2026-01-20T10:30:00+05:30",
-  "ads": [
-    {
-      "id": 1,
-      "type": "text",
-      "title": "Welcome to LabWiz",
-      "description": "Your complete laboratory management solution. Contact us for support.",
-      "vendor": "LabWiz",
-      "start_date": "2026-01-01",
-      "end_date": "2026-12-31",
-      "duration_seconds": 5,
-      "priority": 1,
-      "background_color": "#4F46E5",
-      "text_color": "#FFFFFF"
-    },
-    {
-      "id": 2,
-      "type": "image",
-      "image_file": "medsupply-jan2026.png",
-      "alt_text": "MedSupply January Sale",
-      "click_url": "https://medsupply.example.com",
-      "vendor": "MedSupply Co",
-      "start_date": "2026-01-01",
-      "end_date": "2026-01-31",
-      "duration_seconds": 7,
-      "priority": 2
-    }
-  ]
+    "version": "1.0.0",
+    "last_updated": "2026-01-20",
+    "base_image_url": "https://cdn.jsdelivr.net/gh/dev-monarchy/lab-ads@main/images/",
+    "ads": [
+        {
+            "id": 1,
+            "type": "text",
+            "title": "Transform Your Lab Operations",
+            "description": "Streamline billing, manage tests, and generate comprehensive reports with our all-in-one laboratory management system.",
+            "vendor": "LabWiz",
+            "start_date": "2024-01-01",
+            "end_date": "2030-12-31",
+            "duration_seconds": 6,
+            "priority": 1,
+            "background_color": "#667eea",
+            "text_color": "#FFFFFF"
+        },
+        {
+            "id": 2,
+            "type": "text",
+            "title": "Complete Lab Management Suite",
+            "description": "From patient registration to final report delivery - manage everything seamlessly with automated billing, inventory tracking, and real-time analytics.",
+            "vendor": "LabWiz",
+            "start_date": "2024-01-01",
+            "end_date": "2030-12-31",
+            "duration_seconds": 6,
+            "priority": 2,
+            "background_color": "#764ba2",
+            "text_color": "#FFFFFF"
+        },
+        {
+            "id": 3,
+            "type": "text",
+            "title": "Smart Diagnostics, Smarter Decisions",
+            "description": "Leverage AI-powered insights and automated quality control to deliver accurate results faster. Join 500+ labs already using LabWiz.",
+            "vendor": "LabWiz",
+            "start_date": "2024-01-01",
+            "end_date": "2030-12-31",
+            "duration_seconds": 6,
+            "priority": 3,
+            "background_color": "#f093fb",
+            "text_color": "#FFFFFF"
+        },
+        {
+            "id": 4,
+            "type": "text",
+            "title": "Advertise With LabWiz",
+            "description": "Connect with laboratory professionals across India. Promote your equipment, reagents, and services to decision-makers nationwide.",
+            "vendor": "LabWiz",
+            "start_date": "2024-01-01",
+            "end_date": "2030-12-31",
+            "duration_seconds": 6,
+            "priority": 4,
+            "background_color": "#43e97b",
+            "text_color": "#FFFFFF"
+        }
+    ],
+    "floating_cards": []
 }
